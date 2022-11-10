@@ -1,3 +1,7 @@
 .portfolio {
   font-family: "Comic Neue", cursive;
+}
+
+.portfolio .web__image {
+  width: 25rem;
 }/*# sourceMappingURL=styles.css.map */

@@ -1,9 +1,36 @@
+.nav {
+  display: none;
+}
+
+.portfolio .web__headingPrimary {
+  font-size: 15px;
+  margin-top: 2rem;
+}
+
+.portfolio .web__headingSecondary {
+  font-size: 20px;
+  margin-top: 1rem;
+}
+
+.portfolio .web__aboutMe {
+  text-align: center;
+  font-weight: 900;
+}
+
+* {
+  background-color: rgba(255, 253, 253, 0.959);
+}
+
 .portfolio {
   font-family: "Comic Neue", cursive;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .portfolio .web__image {
-  width: 25rem;
+  width: 15rem;
+  margin: auto;
+  display: block;
 }
 
 @media screen and (min-width: 768px) {

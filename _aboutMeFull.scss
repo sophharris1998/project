@@ -1,0 +1,21 @@
+@use "variables" as *;
+
+ .portfolio {
+    .web__aboutMe {
+        text-align: center;
+        
+    }
+
+    .web__image {
+        width: $imageMe;
+        margin: auto;
+        display: block;
+
+    }
+
+    .web__aboutMeText {
+        text-align: center;
+        
+    }
+}
+

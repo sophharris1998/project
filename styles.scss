@@ -1,25 +1,13 @@
 @use "variables" as *;
 @use "nav" as *;
 @use "header";
-@use "main";
+@use "aboutMe";
 
 * {
     background-color: rgba(255, 253, 253, 0.959);
-}
-
-.portfolio {
-    font-family: $lettering;
+     font-family: $lettering;
     margin-left: 2rem;
     margin-right: 2rem;
-}
-
-.portfolio {
-    .web__image {
-        width: $imageMe;
-        margin: auto;
-        display: block;
-
-    }
 }
 
 // moving onto web screen 

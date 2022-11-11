@@ -14,7 +14,9 @@
 
 .portfolio .web__aboutMe {
   text-align: center;
-  font-weight: 900;
+}
+.portfolio .web__aboutMeText {
+  text-align: center;
 }
 
 * {

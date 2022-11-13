@@ -25,6 +25,11 @@
   margin-top: 1rem;
 }
 
+@media screen and (min-width: 768px) {
+  body {
+    height: 100vh;
+  }
+}
 .web__aboutMeFull .web__aboutMe {
   text-align: center;
 }
@@ -37,9 +42,13 @@
   text-align: center;
 }
 
+@media screen and (min-width: 768px) {
+  body {
+    height: 100vh;
+  }
+}
 .techSkills .web__headingQuaternary {
   text-align: center;
-  color: aqua;
 }
 .techSkills .web__techSkills {
   text-align: center;
@@ -63,11 +72,11 @@
     height: 100vh;
   }
 }
-* {
+.portfolio {
   background-color: rgba(255, 253, 253, 0.959);
   font-family: "Comic Neue", cursive;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
 
 @media screen and (min-width: 768px) {

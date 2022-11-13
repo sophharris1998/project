@@ -19,3 +19,8 @@
     }
 }
 
+@media screen and (min-width: $webSize) { 
+    body {
+        height: 100vh;
+    }}
+

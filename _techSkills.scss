@@ -3,9 +3,30 @@
 .techSkills {
     .web__headingQuaternary {
         text-align: center;
+        color: aqua;
     }
 
     .web__techSkills {
         text-align: center;
     }
-}
+    }
+
+    .techSkills {
+        .logos {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 1rem;
+        align-items: center; 
+        i {
+            margin-left: 0.2rem;
+        margin-right: 0.2rem;
+        text-align: center;
+        }
+        }
+    }
+
+    @media screen and (min-width: $webSize) { 
+        body {
+            height: 100vh;
+        }}

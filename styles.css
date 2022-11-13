@@ -2,6 +2,19 @@
   display: none;
 }
 
+@media screen and (min-width: 768px) {
+  body {
+    height: 100vh;
+  }
+  .nav {
+    display: block;
+    text-align: right;
+  }
+  .nav a {
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+  }
+}
 .portfolio .web__headingPrimary {
   font-size: 15px;
   margin-top: 2rem;
@@ -26,8 +39,22 @@
 
 .techSkills .web__headingQuaternary {
   text-align: center;
+  color: aqua;
 }
 .techSkills .web__techSkills {
+  text-align: center;
+}
+
+.techSkills .logos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 1rem;
+  align-items: center;
+}
+.techSkills .logos i {
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
   text-align: center;
 }
 

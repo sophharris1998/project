@@ -4,7 +4,7 @@
     .web__headingPrimary {
     font-size: 15px;
     margin-top: 2rem;
-    
+
 } }
 
 .portfolio {
@@ -19,4 +19,10 @@
 @media screen and (min-width: $webSize) { 
     body {
         height: 100vh;
-    }}
+    }
+
+    .headerElement {
+        margin-bottom: 5rem;
+    }
+
+}

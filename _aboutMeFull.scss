@@ -22,5 +22,19 @@
 @media screen and (min-width: $webSize) { 
     body {
         height: 100vh;
-    }}
+    }
+
+.web__aboutMeFull {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 3fr;
+    gap: 1rem;
+}
+.web__image {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    margin-right: auto;
+}}
 

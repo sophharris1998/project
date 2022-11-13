@@ -1,19 +1,19 @@
 @use "variables" as *;
 
 .nav {
-    display: $noShow;
+  display: $noShow;
 }
 
-@media screen and (min-width: $webSize) { 
-    body {
-        height: 100vh;
-    }
-.nav {
+@media screen and (min-width: $webSize) {
+  body {
+    height: 100vh;
+  }
+  .nav {
     display: block;
     text-align: right;
     a {
-        margin-left: 0.2rem;
-        margin-right: 0.2rem;
+      margin-left: 0.2rem;
+      margin-right: 0.2rem;
     }
-}
+  }
 }

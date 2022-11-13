@@ -3,6 +3,8 @@
 @use "header";
 @use "aboutMeFull";
 @use "techSkills";
+@use "text.scss";
+@use "footer.scss";
 
 .portfolio {
     background-color: rgba(255, 253, 253, 0.959);
@@ -15,5 +17,6 @@
 
 @media screen and (min-width: $webSize) { 
     body {
-        height: 100vh;
+        margin-left: 0;
+        margin-right: 0;
     }}

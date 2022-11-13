@@ -1,0 +1,24 @@
+@use "variables" as *;
+
+.footer {
+    border: #007ccf solid 1.5rem;
+    background-color: #007ccf;
+    width: 100;
+    color: white;
+}
+.email {
+    text-align: left;
+}
+
+
+@media screen and (min-width: $webSize) { 
+     
+    
+.footer {
+    border: #007ccf solid 1.5rem;
+    background-color: #007ccf;
+    width: 100;
+}
+.email {
+    text-align: left;
+}}

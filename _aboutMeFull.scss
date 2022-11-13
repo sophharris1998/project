@@ -20,9 +20,7 @@
 }
 
 @media screen and (min-width: $webSize) { 
-    body {
-        height: 100vh;
-    }
+
 
 .web__aboutMeFull {
     display: grid;
@@ -36,5 +34,13 @@
     grid-row-start: 1;
     grid-row-end: 3;
     margin-right: auto;
+}
+
+.web__aboutMe {
+    padding-top: 5rem;
+}
+
+.web__information {
+    margin-top: inherit;
 }}
 

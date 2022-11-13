@@ -3,9 +3,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  body {
-    height: 100vh;
-  }
   .nav {
     display: block;
     text-align: right;
@@ -25,16 +22,6 @@
     padding: 5px;
   }
 }
-.portfolio .web__headingPrimary {
-  font-size: 15px;
-  margin-top: 2rem;
-}
-
-.portfolio .web__headingSecondary {
-  font-size: 20px;
-  margin-top: 1rem;
-}
-
 @media screen and (min-width: 768px) {
   body {
     height: 100vh;
@@ -56,9 +43,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  body {
-    height: 100vh;
-  }
   .web__aboutMeFull {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -71,6 +55,12 @@
     grid-row-start: 1;
     grid-row-end: 3;
     margin-right: auto;
+  }
+  .web__aboutMe {
+    padding-top: 5rem;
+  }
+  .web__information {
+    margin-top: inherit;
   }
 }
 .techSkills .web__headingQuaternary {
@@ -97,6 +87,58 @@
   body {
     height: 100vh;
   }
+  .techSkills {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+}
+.logos i {
+  margin-left: 50px;
+  padding-left: 50px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1rem;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1.25rem;
+  }
+  .footer .email {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+  }
+}
+.footer {
+  border: #007ccf solid 1.5rem;
+  background-color: #007ccf;
+  width: 100;
+  color: white;
+}
+
+.email {
+  text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    border: #007ccf solid 1.5rem;
+    background-color: #007ccf;
+    width: 100;
+  }
+  .email {
+    text-align: left;
+  }
 }
 .portfolio {
   background-color: rgba(255, 253, 253, 0.959);
@@ -107,6 +149,7 @@
 
 @media screen and (min-width: 768px) {
   body {
-    height: 100vh;
+    margin-left: 0;
+    margin-right: 0;
   }
 }/*# sourceMappingURL=styles.css.map */

@@ -34,7 +34,7 @@
   text-align: center;
 }
 .web__aboutMeFull .web__image {
-  width: 15rem;
+  width: 100%;
   margin: auto;
   display: block;
 }
@@ -49,12 +49,13 @@
     grid-template-rows: 1fr 3fr;
     gap: 1rem;
   }
-  .web__image {
+  .web__aboutMeFull .web__image {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 3;
     margin-right: auto;
+    width: 15rem;
   }
   .web__aboutMe {
     padding-top: 5rem;
@@ -72,15 +73,18 @@
 
 .techSkills .logos {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  gap: 1rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .techSkills .logos i {
-  margin-left: 0.2rem;
-  margin-right: 0.2rem;
   text-align: center;
+  font-size: 30px;
 }
 
 @media screen and (min-width: 768px) {
@@ -88,17 +92,11 @@
     height: 100vh;
   }
   .techSkills .logos {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
     width: 25%;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
   }
-  .logos i {
+  .techSkills .logos i {
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
   }
 }
 h1 {
@@ -116,30 +114,43 @@ h2 {
   h2 {
     font-size: 1.25rem;
   }
-  .footer .email {
-    font-size: 1.5rem;
-    margin-left: 1rem;
-  }
 }
 .footer {
   border: #007ccf solid 1.5rem;
   background-color: #007ccf;
-  width: 100;
+  color: white;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr;
+}
+.footer a {
+  text-decoration: none;
   color: white;
 }
-
-.email {
+.footer .email {
   text-align: left;
+  font-size: 1.3rem;
+}
+.footer .gitHub {
+  text-align: right;
+  font-size: 1.3rem;
 }
 
 @media screen and (min-width: 768px) {
   .footer {
     border: #007ccf solid 1.5rem;
     background-color: #007ccf;
-    width: 100;
   }
-  .email {
+  .footer .email {
     text-align: left;
+    font-size: 2rem;
+    margin-left: 1rem;
+  }
+  .footer .gitHub {
+    text-align: right;
+    margin-left: auto;
+    font-size: 2rem;
+    margin-left: 1rem;
   }
 }
 .portfolio {
@@ -147,6 +158,10 @@ h2 {
   font-family: "Comic Neue", cursive;
   margin-left: 5rem;
   margin-right: 5rem;
+}
+
+body {
+  margin: 0;
 }
 
 @media screen and (min-width: 768px) {

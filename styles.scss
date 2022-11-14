@@ -13,6 +13,10 @@
     margin-right: 5rem;
 }
 
+body {
+    margin:0;
+}
+
 // moving onto web screen 
 
 @media screen and (min-width: $webSize) { 

@@ -1,24 +1,44 @@
 @use "variables" as *;
 
 .footer {
-    border: #007ccf solid 1.5rem;
-    background-color: #007ccf;
-    width: 100;
+  border: #007ccf solid 1.5rem;
+  background-color: #007ccf;
+  color: white;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr;
+  a {
+    text-decoration: none;
     color: white;
-}
-.email {
+  }
+  .email {
     text-align: left;
+    font-size: 1.3rem;
+
+  }
+  .gitHub {
+    text-align: right;
+    font-size: 1.3rem;
+  }
+
 }
+  
 
-
-@media screen and (min-width: $webSize) { 
-     
-    
-.footer {
+@media screen and (min-width: $webSize) {
+  .footer {
     border: #007ccf solid 1.5rem;
     background-color: #007ccf;
-    width: 100;
+    .email {
+        text-align: left;
+        font-size: 2rem;
+            margin-left: 1rem;
+      }
+      
+      .gitHub {
+          text-align: right;
+          margin-left: auto;
+          font-size: 2rem;
+        margin-left: 1rem;
+        }
+  }
 }
-.email {
-    text-align: left;
-}}

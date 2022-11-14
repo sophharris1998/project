@@ -66,6 +66,7 @@
 }
 .techSkills .web__headingQuaternary {
   text-align: center;
+  margin-top: 3rem;
 }
 .techSkills .web__techSkills {
   text-align: center;
@@ -151,6 +152,48 @@ h2 {
     margin-left: auto;
     font-size: 2rem;
     margin-left: 1rem;
+  }
+}
+.Projects {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.card {
+  margin-bottom: 3rem;
+  background-color: #409BD7;
+  padding: 1rem;
+  border-radius: 0.3rem;
+}
+.card .cardImage {
+  width: 100%;
+}
+.card .cardHeading {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 2rem;
+  color: white;
+}
+.card .cardInformation {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: white;
+}
+.card .buttonPrimary {
+  background-color: white;
+  color: black;
+  margin-right: auto;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 0.3rem;
+}
+
+@media screen and (min-width: 768px) {
+  .cardGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 3rem;
   }
 }
 .portfolio {

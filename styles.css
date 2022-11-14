@@ -87,18 +87,20 @@
   body {
     height: 100vh;
   }
-  .techSkills {
+  .techSkills .logos {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 25%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .logos i {
+    text-align: center;
+    font-size: 40px;
   }
 }
-.logos i {
-  margin-left: 50px;
-  padding-left: 50px;
-  text-align: center;
-}
-
 h1 {
   font-size: 1rem;
 }

@@ -104,6 +104,10 @@
     font-size: 50px;
   }
 }
+* {
+  font-family: "Comic Neue", cursive;
+}
+
 h1 {
   font-size: 1rem;
   color: white;
@@ -178,7 +182,10 @@ h2 {
   border-radius: 0.3rem;
 }
 .card .cardImage {
-  width: 100%;
+  width: 95%;
+  height: 60%;
+  margin-left: 0.8rem;
+  margin-top: 0.8rem;
 }
 .card .cardHeading {
   padding-left: 1rem;

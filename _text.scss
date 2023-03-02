@@ -1,5 +1,9 @@
 @use "variables" as *;
 
+* {
+        font-family: $lettering;
+}
+
 h1 {
         font-size: 1rem;
         color: white;

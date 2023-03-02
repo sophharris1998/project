@@ -24,6 +24,11 @@
     padding: 5px;
   }
 }
+header {
+  size: 3rem;
+  text-align: center;
+}
+
 @media screen and (min-width: 768px) {
   body {
     height: 100vh;
@@ -32,6 +37,7 @@
     margin-top: 3rem;
     border: #9D8CFF solid 0.1rem;
     background-color: #9D8CFF;
+    text-align: left;
   }
 }
 .web__aboutMeFull .web__aboutMe {

@@ -1,8 +1,8 @@
 @use "variables" as *;
 
 .footer {
-  border: #007ccf solid 1.5rem;
-  background-color: #007ccf;
+  border: #3DD9C4 solid 1.5rem;
+  background-color: #3DD9C4;
   color: white;
   display: grid;
   grid-template-columns: 3fr 1fr;
@@ -26,8 +26,8 @@
 
 @media screen and (min-width: $webSize) {
   .footer {
-    border: #007ccf solid 1.5rem;
-    background-color: #007ccf;
+    border: #4FC9C6 solid 1.5rem;
+    background-color: #4FC9C6;
     .email {
         text-align: left;
         font-size: 2rem;

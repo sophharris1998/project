@@ -9,6 +9,8 @@
     font-weight: bold;
     color: black;
     margin-top: 2rem;
+    margin-left: auto;
+    margin-right: 1rem;
   }
   .nav a {
     margin-left: 0.2rem;
@@ -17,7 +19,7 @@
     text-decoration: none;
   }
   .nav .borderTouch {
-    border: #007ccf solid 3px;
+    border: #4FC9C6 solid 3px;
     border-radius: 25px;
     padding: 5px;
   }
@@ -26,8 +28,10 @@
   body {
     height: 100vh;
   }
-  .headerElement {
-    margin-bottom: 5rem;
+  header {
+    margin-top: 3rem;
+    border: #9D8CFF solid 0.1rem;
+    background-color: #9D8CFF;
   }
 }
 .web__aboutMeFull .web__aboutMe {
@@ -64,14 +68,14 @@
     margin-top: inherit;
   }
 }
-.techSkills .web__headingQuaternary {
-  text-align: center;
-  margin-top: 3rem;
-}
-.techSkills .web__techSkills {
+.web__techSkills {
   text-align: center;
 }
 
+.techSkills {
+  border: #3DD9C4 solid 1rem;
+  background-color: #3DD9C4;
+}
 .techSkills .logos {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -102,6 +106,8 @@
 }
 h1 {
   font-size: 1rem;
+  color: white;
+  background-color: #9D8CFF;
 }
 
 h2 {
@@ -110,15 +116,21 @@ h2 {
 
 @media screen and (min-width: 768px) {
   h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    margin-left: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
   }
   h2 {
-    font-size: 1.25rem;
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 2rem;
   }
 }
 .footer {
-  border: #007ccf solid 1.5rem;
-  background-color: #007ccf;
+  border: #3DD9C4 solid 1.5rem;
+  background-color: #3DD9C4;
   color: white;
   display: grid;
   grid-template-columns: 3fr 1fr;
@@ -139,8 +151,8 @@ h2 {
 
 @media screen and (min-width: 768px) {
   .footer {
-    border: #007ccf solid 1.5rem;
-    background-color: #007ccf;
+    border: #4FC9C6 solid 1.5rem;
+    background-color: #4FC9C6;
   }
   .footer .email {
     text-align: left;
@@ -161,7 +173,7 @@ h2 {
 
 .card {
   margin-bottom: 3rem;
-  background-color: #409BD7;
+  background-color: #9D8CFF;
   padding: 1rem;
   border-radius: 0.3rem;
 }

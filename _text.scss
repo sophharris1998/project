@@ -2,6 +2,8 @@
 
 h1 {
         font-size: 1rem;
+        color: white;
+        background-color: #9D8CFF;
 }
 
 h2 {
@@ -11,10 +13,16 @@ h2 {
 @media screen and (min-width: $webSize) { 
 
 h1 {
-        font-size: 1.5rem;
+        font-size: 2rem;
+        margin-left: 2rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
        } 
        h2 {
-        font-size: 1.25rem;
+        font-size: 2rem;
 }
 
+h3 { font-size: 2rem;
+
+}
 }

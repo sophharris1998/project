@@ -1,17 +1,13 @@
 @use "variables" as *;
 
-.techSkills {
-  .web__headingQuaternary {
-    text-align: center;
-    margin-top:3rem;
-  }
-
   .web__techSkills {
     text-align: center;
   }
-}
 
 .techSkills {
+
+  border: #3DD9C4 solid 1rem;
+  background-color: #3DD9C4;
   .logos {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

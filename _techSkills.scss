@@ -10,7 +10,7 @@
   background-color: #3DD9C4;
   .logos {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     align-items: center;
     margin-left: auto;
@@ -31,6 +31,8 @@
     height: 100vh;
   }
   .techSkills {
+    margin-bottom: 3rem;
+    margin-top: 3rem;
 .logos {
   width: 25%;
   i {

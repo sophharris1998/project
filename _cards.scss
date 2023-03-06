@@ -34,6 +34,7 @@
     padding: 0.7rem;
     border: none;
     border-radius: 0.3rem;
+    margin-bottom: 3rem;
   }
 
 }
@@ -42,6 +43,6 @@
 .cardGrid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
+  grid-template-rows: 1fr 1fr;
   gap:3rem;
 }}
